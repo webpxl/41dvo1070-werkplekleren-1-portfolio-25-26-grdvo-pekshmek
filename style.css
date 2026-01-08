@@ -137,3 +137,115 @@ a {
 .info-section {
     padding-bottom: 60px;
 }
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+
+.lang-list {
+    list-style: none;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.lang-list li {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.lang-list span {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+.progress-bg {
+    width: 100%;
+    height: 20px;
+    background-color: #FFB1DC;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #F291C6;
+    border-radius: 20px;
+}
+
+.hobby-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hobby-icon {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.hobby-icon:hover {
+    transform: scale(1.2);
+}
+.skills-bar {
+    border-radius: 50px;
+    background-color: #FBE6F1;
+    padding: 20px 40px;
+    text-align: center;
+    max-width: 900px;
+    margin: 50px auto 0 auto;
+}
+
+.skills-bar h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.skill-icon {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.skill-icon:hover {
+    transform: scale(1.2);
+}
+
+
