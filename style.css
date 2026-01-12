@@ -451,6 +451,7 @@ footer {
 .menu-btn {
     background-color: #F291C6;
     color: #000000;
+    border: 2px solid #000000 !important;
     padding: 8px 35px;
     border-radius: 50px;
     text-decoration: none;
@@ -461,7 +462,7 @@ footer {
 
 .menu-btn:hover {
     transform: scale(1.05);
-    background-color: #F291C6;
+    background-color: #FFFFFF !important;
     cursor: pointer;
 }
 
