@@ -637,3 +637,44 @@ footer {
     bottom: -60px;
     right: 0;
 }
+
+.dvo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.dvo-card {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 30px;
+    border: 2px solid #F291C6;
+    box-shadow: 10px 10px 0 rgba(242, 145, 198, 0.4);
+}
+
+.dvo-card h2 {
+    font-size: 1.8rem;
+    color: #F291C6;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.dvo-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #000;
+}
+
+.dvo-text strong {
+    color: #F291C6;
+    font-weight: 900;
+}
+
+@media (max-width: 768px) {
+    .dvo-grid {
+        grid-template-columns: 1fr;
+    }
+}
