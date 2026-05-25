@@ -1,6 +1,6 @@
 const textElement = document.querySelector(".job-title");
 
-const phrases = ["GRAFISCH ONTWERPER", "STUDENT PXL"];
+const phrases = ["GRAFISCH ONTWERPER","UI/UX ONTWERPER", "STUDENT PXL"];
 
 let phraseIndex = 0;
 let charIndex = 0;
