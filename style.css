@@ -837,6 +837,7 @@ html {
     padding: 40px;
     box-shadow: 10px 10px 0 rgba(242, 145, 198, 0.8);
     line-height: 1.6;
+    border: 3px solid #F291C6;
 }
 
 .page-header p {
